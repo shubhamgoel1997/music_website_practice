@@ -45,6 +45,7 @@
   padding: 15px;
 }
 .sidebar-container .sidebar ul li a {
+  color: #fff;
   font-size: 20px;
   transition: 0.6s ease;
   display: block;
