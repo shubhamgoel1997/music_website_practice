@@ -80,7 +80,7 @@ hr {
 }
 /*Footer Section*/
 .footer {
-  background-color: #000;
+  background-color: #f8f9fa;
   text-align: center;
   color: #fff;
   position: fixed;
@@ -112,7 +112,7 @@ hr {
   font-size: 1.5rem;
 }
 .horizontal-list li a {
-  color: white;
+  color: #594f8d;
   text-decoration: none;
 }
 
