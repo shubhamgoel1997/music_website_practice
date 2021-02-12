@@ -1,0 +1,174 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Music Website</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css"> -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+
+  <!--Side Bar Section of the page-->
+  <main class="sidebar-container">
+    <section class="sidebar">
+      <img src="./img/NffwIBC.jpg" alt="Side bar Image" />
+      <h2>Music</h2>
+      <ul>
+        <li id="active"><a href="#"><i class="fas fa-music"></i>Featured</a></li>
+        <li><a href="#"><i class="fas fa-microphone"></i>Radio</a></li>
+        <li><a href="#"><i class="fas fa-list"></i>Song List</a></li>
+        <li><a href="#"><i class="fas fa-tv"></i>TV</a></li>
+        <li><a href="#"><i class="fas fa-heart"></i>Liked</a></li>
+        <li><a href="#"><i class="fas fa-download"></i>Downloads</a></li>
+        <li><a href="#"><i class="fas fa-play"></i>Play History</a></li>
+      </ul>
+      <hr />
+      <h2>My MusicList</h2>
+      <ul class="sidebar-list">
+        <li class="lists-items"><a class="playlist" href="#">POP</a></li>
+        <li class="lists-items"><a class="playlist" href="#">ROCK</a></li>
+        <li class="lists-items"><a class="playlist" href="#">HEAVY METAL</a></li>
+      </ul>
+    </section>
+
+    <!--Header Section of the page-->
+    <section class="main-header">
+      <header class="header">
+        <button class="menu"><i class="fas fa-bars"></i>Menu</button>
+        <ul class="nav-right">
+          <li>Home</li>
+          <li>Music</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </header>
+    </section>
+    <!-- top songs section  -->
+    <section class="top-songs">
+      <h2 class="text-primary">Top Songs</h2>
+      <section class="container">
+        <article class="layout">
+          <img src="./img/music-1.jpeg" alt="">
+          <p><i class="fas fa-play"></i><i class="fas fa-heart"></i>Somebody Told Me </p>
+          ​
+        </article>
+        <article class="layout">
+          <img src="./img/music-2.jpeg" alt="">
+          <p><i class="fas fa-play"></i><i class="fas fa-heart"></i>Come As You Are</p>
+
+        </article>
+        <article class="layout">
+          <img src="./img/music-5.jpeg" alt="">
+          <p>
+            <i class="fas fa-play"></i><i class="fas fa-heart"></i>Stairway To Heaven
+          </p>
+
+        </article>
+      </section>
+      <!--Trending Song Section of the web page-->
+      <section class="trending-songs">
+        <h1>Treding Songs</h1>
+        <section class="trending-list">
+          <!--Table Making-->
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <iframe width="300" height="150" src="https://www.youtube.com/embed/TCcmcWdmXCg" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </section>
+      </section>
+  </main>
+
+  <!--Footer Section of the page-->
+  <footer class="footer">
+    <div id="contact-social">
+      <ul id="contact-social-icon" class="horizontal-list text-center social-icons">
+        <li>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

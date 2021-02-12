@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+/*Side Bar Section Styling*/
+.sidebar-container {
+  display: flex;
+  position: relative;
+}
+.sidebar-container .sidebar {
+  width: 250px;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
+  );
+  padding: 30px 0px;
+  position: fixed;
+}
+.sidebar-container img {
+  width: 100%;
+  padding: 1em;
+}
+.sidebar-container .sidebar h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+.sidebar-container .sidebar ul li {
+  padding: 15px;
+}
+.sidebar-container .sidebar ul li a {
+  font-size: 20px;
+  transition: 0.6s ease;
+  display: block;
+}
+.sidebar-container .sidebar ul li a .fas {
+  width: 30px;
+}
+.sidebar-container .sidebar ul li:hover {
+  background-color: #594f8d;
+}
+.sidebar-container .sidebar ul li:hover a {
+  color: #fff;
+}
+#active {
+  background-color: #594f8d;
+}
+hr {
+  margin-top: 10px;
+  color: #594f8d;
+}
+.sidebar-list {
+  display: block;
+  text-align: center;
+}
+.sidebar-list .lists-items {
+  background-color: #fff;
+  margin: 0.8em;
+  border-radius: 10px;
+}
+.sidebar-list .lists-items .playlist {
+  color: #000;
+}
+/*Footer Section*/
+.footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.social-icons li a i {
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 50%;
+}
+/* .social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px lightgrey;
+  transition: box-shadow 0.5s;
+} */
+#contact-social-icon li a i {
+  padding: 25px;
+}
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px;
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Header Section Styling*/
+.main-header {
+  background-color: #f5f5f5;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.main-header .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+.main-header .header .nav-right {
+  display: flex;
+}
+.main-header .header .nav-right li {
+  padding: 20px;
+  margin-right: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.main-header .header .menu {
+  background-color: #0086b3;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+}
+.main-header .header .menu .fas {
+  margin: 2px;
+}
+
+/* top songs section  */
+.top-songs {
+  /* border:1px solid black; */
+  height: 50vh;
+  width: 70%;
+  margin-left: 400px;
+  margin-top: 120px;
+  border-bottom: 2px dotted #333;
+}
+.text-primary {
+  font-size: 35px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.top-songs .container {
+  height: 92%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.layout {
+  height: 400px;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.layout img {
+  height: 70%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.layout p {
+  margin-top: 20px;
+  font-size: 1.3em;
+  word-spacing: 0.35em;
+  line-height: 30px;
+  text-align: center;
+  color: #898989;
+}
+.layout p .fas {
+  margin: 10px;
+}
+/*Trending songs stylings*/
+.trending-songs h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.trending-songs {
+  margin: 2em 1em;
+}
+.trending-list {
+  display: flex;
+}
+.trending-list iframe {
+  margin: 1em 1.5em;
+  border: none;
+}
+/* tabel making */
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 30%;
+  margin-top: 1em;
+}
+
+thead tr {
+  border-bottom: 3px solid #bcbcbc;
+}
+td,
+th {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 13px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #d9d9da;
+}
