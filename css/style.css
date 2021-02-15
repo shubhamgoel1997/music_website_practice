@@ -7,6 +7,9 @@
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
 }
+body {
+  min-width: 800px;
+}
 /*Side Bar Section Styling*/
 .sidebar-container {
   display: flex;
@@ -86,7 +89,7 @@ hr {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 86.5%;
+  width: 100%;
 }
 .social-icons li a i {
   padding: 12px;
@@ -120,7 +123,7 @@ hr {
 .main-header {
   background-color: #f5f5f5;
   width: 80%;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 300px;
   margin-right: 20px;
   top: 0;
@@ -165,7 +168,7 @@ hr {
   height: 50vh;
   width: 70%;
   margin-left: 400px;
-  margin-top: 120px;
+  margin-top: 90px;
   border-bottom: 2px dotted #333;
 }
 .text-primary {
@@ -180,7 +183,7 @@ hr {
   justify-content: space-between;
 }
 .layout {
-  height: 400px;
+  height: 350px;
   width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
@@ -207,7 +210,7 @@ hr {
   font-weight: 500;
 }
 .trending-songs {
-  margin: 2em 1em;
+  margin: 1em 1em;
 }
 .trending-list {
   display: flex;
